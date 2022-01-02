@@ -48,7 +48,9 @@ public class LexAnalyzer {
             }
 
         }
-    }
+    }  
+
+    
 
     private void validate(String str) throws InvalidDataException {
         if (str.contains("#")) return;
